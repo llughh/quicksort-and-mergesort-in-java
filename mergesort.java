@@ -37,7 +37,6 @@ public class mergesort {
         }
     }
 
-
     public static void main(String[] args) {
         int[] lista = {4, 2, 8, 1, 3, 9, 6, 5, 7};
         System.out.println("Lista desordenada: " + Arrays.toString(lista));
