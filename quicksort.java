@@ -6,6 +6,7 @@ public class quicksort {
         lista[valor1] = lista[valor2];
         lista[valor2] = auxiliar;
     }
+    
     public void quicksort(int[] lista, int inicio, int fin){
         if (inicio < fin){
             int pivote = lista[inicio];
@@ -22,6 +23,7 @@ public class quicksort {
             quicksort(lista, contadorIzq+1, fin);
         }
     }
+    
     public static void main(String[] args) {
         int[] lista = {4, 2, 8, 1, 3, 9, 6, 5, 7};
         System.out.println("Lista desordenada: " + Arrays.toString(lista));
